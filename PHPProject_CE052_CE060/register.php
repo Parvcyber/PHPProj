@@ -74,12 +74,12 @@ else
     <SCRIPT src="validation.js"></SCRIPT>
 </head>
 
-<body background="img/wallpaper1.jpg" link="white" alink="white" vlink="white" width="1024" height="768">
+<body background="img/r2.jpg" link="white" alink="white" vlink="white" width="1024" height="768">
+
     <?php
 		include_once 'header.php';
 		// include ('header.php');
-	?>
-    <div id="register_form" align="center" height="200" width="200">
+	?> <div id="register_form" align="center" height="200" width="200">
         <form name="register" method="post" action="register.php" onsubmit="return validate()">
             <TABLE border="0">
                 <CAPTION>
